@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp2
 {
-    internal class Vehicle
+    internal class Car:Vehicle
     {
-        public string Color;
-        public string Name;
+        public string Brand;
+        public string Model;
     }
 }
